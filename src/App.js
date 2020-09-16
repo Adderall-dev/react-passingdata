@@ -8,6 +8,7 @@ export default function App() {
   const handleSubmit = (e) => {
     setName(nameValue);
     e.preventDefault();
+    document.title = nameValue;
   };
 
   return (
